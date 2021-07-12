@@ -6,7 +6,7 @@ This addon provides Discord RPC support for Garry's Mod, through the use of a bi
 In June 2018, Discord broke updating this through HTTP; so any Lua-based implementations of this are no longer possible. However, it is still possible (however impractical for servers) to use Rich Presence by using a binary module.
 
 ## For Clients
-Download the latest version of the GDiscord module from the [releases page](https://github.com/fluffy-servers/gmod-discord-rpc/releases). 
+Download the latest version of the GDiscord module from the [releases page](https://github.com/Lufians-Landing/gmod-discord-rpc/releases). 
 The module you need depends on what OS and version you're running (eg. Windows on 32-bit should download **gmcl_gdiscord_win32.dll**). If you're running the 64-bit beta, make sure you download the 64.dll!
 
 Copy this into **lua/bin/**. That's all!
@@ -16,7 +16,7 @@ With this module installed, your Discord status should automatically update when
 ## For Servers
 Please note that for this to work, **all** clients *will* need to install the binary module.
 
-Download the latest version of cl_discord.lua from the [releases page](https://github.com/fluffy-servers/gmod-discord-rpc/releases).
+Download the latest version of cl_discord.lua from the [releases page](https://github.com/Lufians-Landing/gmod-discord-rpc/releases).
 
 Copy this into **lua/autorun/client**.
 
